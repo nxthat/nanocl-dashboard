@@ -3,8 +3,8 @@ import type {ReducerHooks} from '~/utils/reducer';
 import { createReducer } from '~/utils/reducer';
 
 import {
-  COUNTER_SET,
-  counterSet,
+  GET_NAMESPACE,
+  getNamespace,
 } from '../actions/home';
 
 export type HomeState = {
@@ -16,8 +16,8 @@ const initialState: HomeState = {
 };
 
 const reducerHooks: ReducerHooks<HomeState> = {
-  [COUNTER_SET.DEFAULT]:
-    (state, action: ReducerAction<typeof counterSet>) => ({
+  [GET_NAMESPACE.DEFAULT]:
+    (state, action: ReducerAction<typeof getNamespace>) => ({
       ...state,
       counter: action.payload,
     }),

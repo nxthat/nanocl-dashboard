@@ -54,7 +54,7 @@ class MyApp extends App<AppPropsWithLayout> {
       <ThemeProvider theme={themeDefault}>
         <React.Fragment>
           <Head>
-            <title>nxtranet</title>
+            <title>nanocl - dashboard</title>
             <link rel="shortcut icon" href="/favicon.png" type="image/png" />
             <meta name="viewport" content="width=device-width, user-scalable=no" />
           </Head>
