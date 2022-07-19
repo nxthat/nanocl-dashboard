@@ -7,4 +7,3 @@ export const [GET_NAMESPACE, getNamespace] = genAction<[
   'GET_NAMESPACE',
   (value) => value
 );
-
